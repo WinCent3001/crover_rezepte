@@ -13,6 +13,15 @@
     nav a:hover { background-color: #c72c3c; }
     main { max-width: 800px; margin: 2rem auto; padding: 1rem; background-color: white; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);}
     footer { text-align: center; padding: 1rem; background-color: #a4d65e; color: white; margin-top: 2rem; }
+    .recipe { margin-bottom: 2rem; padding: 1.5rem; border: 1px solid #ddd; border-radius: 8px; }
+    .recipe h3 { color: #a4d65e; margin-top: 0; }
+    .ingredients { background-color: #f9f9f9; padding: 1rem; border-radius: 5px; margin: 1rem 0; }
+    .ingredients h4 { margin-top: 0; color: #333; }
+    .ingredients ul { margin: 0; padding-left: 1.5rem; }
+    .instructions { margin-top: 1rem; }
+    .instructions h4 { color: #333; }
+    .instructions ol { padding-left: 1.5rem; }
+    .duration { font-weight: bold; color: #e63946; }
   </style>
 </head>
 <body>
@@ -38,110 +47,159 @@
 
   <main>
     <h2>März-Rezepte</h2>
-    <!-- Platzhalter für Rezepte -->
-    <section>
+    
+    <section class="recipe">
       <h3>Spaghetti mit Bärlauchpesto</h3>
-      <p><h4>Zutaten (für 4 Personen):</h4></p>
-<p>•	400 g Spaghetti</p>
-<p>•	1 Bund frischer Bärlauch (ca. 70 g)</p>
-<p>•	50 g Walnüsse oder Sonnenblumenkerne</p>
-<p>•	80 ml Rapsöl oder Olivenöl</p>
-<p>•	40 g geriebener Parmesan(optional)</p>
-<p>•	Salz & Pfeffer</p>
-<p>•	1 Spritzer Zitronensaft</p>
-
-<p><h4>Zubereitung:</h4>
-<p>1.	Spaghetti in reichlich Salzwasser bissfest kochen.</p>
-<p>2.	In der Zwischenzeit Bärlauch gründlich waschen und grob hacken.</p>
-<p>3.	Walnüsse leicht anrösten (Pfanne ohne Öl).</p>
-<p>4.	Bärlauch, Walnüsse, Öl,
-Zitronensaft und ggf. Parmesan in
-einem Mixer oder mit dem Pürierstab zu einem Pesto verarbeiten.</p>
-<p>5.	Mit Salz und Pfeffer abschmecken.</p>
-<p>6.	Nudeln abgießen, etwas Kochwasser auffangen und mit dem Pesto vermengen.</p>
-<p>7.	Auf Teller verteilen und nach Wunsch mit extra Käse bestreuen.</p>
+      <p>Frühlingshafte Pasta mit frischem Bärlauch - perfekt für den Beginn der Bärlauchsaison im März.</p>
+      
+      <div class="ingredients">
+        <h4>Zutaten (für 4 Personen):</h4>
+        <ul>
+          <li>400 g Spaghetti</li>
+          <li>1 Bund frischer Bärlauch (ca. 70 g)</li>
+          <li>50 g Walnüsse oder Sonnenblumenkerne</li>
+          <li>80 ml Rapsöl oder Olivenöl</li>
+          <li>40 g geriebener Parmesan (optional)</li>
+          <li>Salz & Pfeffer</li>
+          <li>1 Spritzer Zitronensaft</li>
+        </ul>
+      </div>
+      
+      <div class="instructions">
+        <h4>Zubereitung:</h4>
+        <ol>
+          <li>Spaghetti in reichlich Salzwasser bissfest kochen.</li>
+          <li>In der Zwischenzeit Bärlauch gründlich waschen und grob hacken.</li>
+          <li>Walnüsse leicht anrösten (Pfanne ohne Öl).</li>
+          <li>Bärlauch, Walnüsse, Öl, Zitronensaft und ggf. Parmesan in einem Mixer oder mit dem Pürierstab zu einem Pesto verarbeiten.</li>
+          <li>Mit Salz und Pfeffer abschmecken.</li>
+          <li>Nudeln abgießen, etwas Kochwasser auffangen und mit dem Pesto vermengen.</li>
+          <li>Auf Teller verteilen und nach Wunsch mit extra Käse bestreuen.</li>
+        </ol>
+      </div>
     </section>
-    <hr>
-    <section>
+
+    <section class="recipe">
       <h3>Kartoffel-Spinat-Gratin</h3>
-      <p><h4>Zutaten (für 4 Personen):</h4>
-<p>•	800 g festkochende Kartoffeln</p>
-<p>•	300 g frischer Spinat</p>
-<p>•	200 ml Sahne</p>
-<p>•	100 ml Milch</p>
-<p>•	1 Zwiebel</p>
-<p>•	150 g geriebener Käse (z. B.Emmentaler)</p>
-<p>•	Salz, Pfeffer, Muskat</p>
-<p>•	Butter für die Form</p>
-
-<p><h4>Zubereitung:</h4></p>
-<p>1.	Kartoffeln schälen, in dünne Scheiben schneiden und 10 Minuten in Salzwasser vorkochen.</p>
-<p>2.	Spinat waschen, grobe Stiele entfernen. In einer Pfanne mit etwas Öl und Zwiebel kurz dünsten, bis er zusammenfällt.</p>
-<p>3.	Sahne und Milch mischen, mit Salz, Pfeffer und Muskat würzen.</p>
-<p>4.	Eine Auflaufform mit Butter einfetten. Kartoffelscheiben und Spinat abwechselnd einschichten.</p>
-<p>5.	Sahnemischung darüber gießen, mit Käse bestreuen.
-<p>6.	Bei 180 °C (Ober-/Unterhitze) ca. 30–35 Minuten überbacken.</p>
+      <p>Herzhaftes Gratin mit frischem Spinat und knusprigem Käse - ideal für kühle Märztage.</p>
+      
+      <div class="ingredients">
+        <h4>Zutaten (für 4 Personen):</h4>
+        <ul>
+          <li>800 g festkochende Kartoffeln</li>
+          <li>300 g frischer Spinat</li>
+          <li>200 ml Sahne</li>
+          <li>100 ml Milch</li>
+          <li>1 Zwiebel</li>
+          <li>150 g geriebener Käse (z. B. Emmentaler)</li>
+          <li>Salz, Pfeffer, Muskat</li>
+          <li>Butter für die Form</li>
+        </ul>
+      </div>
+      
+      <div class="instructions">
+        <h4>Zubereitung:</h4>
+        <ol>
+          <li>Kartoffeln schälen, in dünne Scheiben schneiden und 10 Minuten in Salzwasser vorkochen.</li>
+          <li>Spinat waschen, grobe Stiele entfernen. In einer Pfanne mit etwas Öl und Zwiebel kurz dünsten, bis er zusammenfällt.</li>
+          <li>Sahne und Milch mischen, mit Salz, Pfeffer und Muskat würzen.</li>
+          <li>Eine Auflaufform mit Butter einfetten. Kartoffelscheiben und Spinat abwechselnd einschichten.</li>
+          <li>Sahnemischung darüber gießen, mit Käse bestreuen.</li>
+          <li>Bei 180 °C (Ober-/Unterhitze) ca. 30–35 Minuten überbacken.</li>
+        </ol>
+      </div>
     </section>
-    <hr>
-    <section>
+
+    <section class="recipe">
       <h3>Bärlauchsuppe</h3>
-      <p><h4>Zutaten (für 4 Personen):</h4></p>
-<p>•	1 Bund Bärlauch (ca. 70 g)</p>
-<p>•	1 kleine Zwiebel</p>
-<p>•	300 g Kartoffeln</p>
-<p>•	1 EL Butter oder Öl</p>
-<p>•	750 ml Gemüsebrühe</p>
-<p>•	100 ml Sahne</p>
-<p>•	Salz, Pfeffer, Muskat</p>
-
-<p><h4>Zubereitung:</h4></p>
-<p>1.	Zwiebel schälen, würfeln. Kartoffeln schälen, in kleine Stücke schneiden.</p>
-<p>2.	In Butter glasig anbraten, mit Brühe ablöschen. 15 Minuten köcheln lassen.</p>
-<p>3.	Bärlauch waschen und grob hacken, zur Suppe geben und 2 Minuten mitkochen.</p>
-<p>4.	Alles fein pürieren, Sahne unterrühren. Mit Salz, Pfeffer, Muskat abschmecken.</p>
-<p>5.	Nach Belieben mit einem Klecks Crème fraîche servieren.</p>
+      <p>Cremige Frühlingssuppe mit dem charakteristischen Aroma von frischem Bärlauch.</p>
+      
+      <div class="ingredients">
+        <h4>Zutaten (für 4 Personen):</h4>
+        <ul>
+          <li>1 Bund Bärlauch (ca. 70 g)</li>
+          <li>1 kleine Zwiebel</li>
+          <li>300 g Kartoffeln</li>
+          <li>1 EL Butter oder Öl</li>
+          <li>750 ml Gemüsebrühe</li>
+          <li>100 ml Sahne</li>
+          <li>Salz, Pfeffer, Muskat</li>
+        </ul>
+      </div>
+      
+      <div class="instructions">
+        <h4>Zubereitung:</h4>
+        <ol>
+          <li>Zwiebel schälen, würfeln. Kartoffeln schälen, in kleine Stücke schneiden.</li>
+          <li>In Butter glasig anbraten, mit Brühe ablöschen. 15 Minuten köcheln lassen.</li>
+          <li>Bärlauch waschen und grob hacken, zur Suppe geben und 2 Minuten mitkochen.</li>
+          <li>Alles fein pürieren, Sahne unterrühren. Mit Salz, Pfeffer, Muskat abschmecken.</li>
+          <li>Nach Belieben mit einem Klecks Crème fraîche servieren.</li>
+        </ol>
+      </div>
     </section>
-    <hr>
-    <section>
+
+    <section class="recipe">
       <h3>Karotten-Apfel-Rohkost</h3>
-      <p><h4>Zutaten (für 4 Personen):</h4></p>
-<p>•	4 mittelgroße Karotten</p>
-<p>•	2 Äpfel</p>
-<p>•	2 EL Zitronensaft</p>
-<p>•	1 TL Honig oder Ahornsirup</p>
-<p>•	2 EL Rapsöl oder Sonnenblumenöl</p>
-<p>•	Salz & Pfeffer</p>
-
-<p><h4>Zubereitung:</h4></p>
-<p>1.	Karotten und Äpfel fein reiben.</p>
-<p>2.	Mit Zitronensaft, Öl und Honig verrühren.</p>
-<p>3.	Mit Salz und Pfeffer abschmecken.</p>
-<p>4.	Kurz durchziehen lassen und gekühlt servieren.</p>
+      <p>Frische, knackige Rohkost mit süßlichem Geschmack - perfekt als Beilage oder leichtes Mittagessen.</p>
+      
+      <div class="ingredients">
+        <h4>Zutaten (für 4 Personen):</h4>
+        <ul>
+          <li>4 mittelgroße Karotten</li>
+          <li>2 Äpfel</li>
+          <li>2 EL Zitronensaft</li>
+          <li>1 TL Honig oder Ahornsirup</li>
+          <li>2 EL Rapsöl oder Sonnenblumenöl</li>
+          <li>Salz & Pfeffer</li>
+        </ul>
+      </div>
+      
+      <div class="instructions">
+        <h4>Zubereitung:</h4>
+        <ol>
+          <li>Karotten und Äpfel fein reiben.</li>
+          <li>Mit Zitronensaft, Öl und Honig verrühren.</li>
+          <li>Mit Salz und Pfeffer abschmecken.</li>
+          <li>Kurz durchziehen lassen und gekühlt servieren.</li>
+        </ol>
+      </div>
     </section>
-    <hr>
-    <section>
+
+    <section class="recipe">
       <h3>Grießschnitten mit Apfelkompott</h3>
-      <p><h4>Zutaten für den Grieß (für 4 Personen):</h4></p>
-<p>•	750 ml Milch</p>
-<p>•	75 g Weichweizengrieß</p>
-<p>•	2 EL Zucker</p>
-<p>•	1 TL Butter</p>
-<p>•	1 Prise Salz</p>
-
-<p>Zutaten für Apfelkompott:</p>
-<p>•	4 Äpfel</p>
-<p>•	100 ml Wasser</p>
-<p>•	1 EL Zucker</p>
-<p>•	1 Prise Zimt</p>
-
-<p><h4>Zubereitung:</h4></p>
-<p>1.	Für den Grieß: Milch mit Zucker, Butter und Salz aufkochen, Grieß einrühren. Kurz aufkochen lassen, dann 10 Minuten quellen lassen.</p>
-<p>2.	In eine flache Form streichen (ca. 1,5 cm dick), auskühlen lassen.</p>
-<p>3.	In Stücke schneiden, in Butter von beiden Seiten goldbraun braten.</p>
-<p>4.	Für das Kompott: Äpfel schälen, in Stücke schneiden, mit Wasser, Zucker und Zimt ca. 10 Minuten weich kochen.</p>
-<p>5.	Grießschnitten mit Apfelkompott servieren.</p>
+      <p>Süße Nachspeise mit hausgemachtem Apfelkompott - ein traditionelles Gericht für die ganze Familie.</p>
+      
+      <div class="ingredients">
+        <h4>Zutaten für den Grieß (für 4 Personen):</h4>
+        <ul>
+          <li>750 ml Milch</li>
+          <li>75 g Weichweizengrieß</li>
+          <li>2 EL Zucker</li>
+          <li>1 TL Butter</li>
+          <li>1 Prise Salz</li>
+        </ul>
+        
+        <h4>Zutaten für Apfelkompott:</h4>
+        <ul>
+          <li>4 Äpfel</li>
+          <li>100 ml Wasser</li>
+          <li>1 EL Zucker</li>
+          <li>1 Prise Zimt</li>
+        </ul>
+      </div>
+      
+      <div class="instructions">
+        <h4>Zubereitung:</h4>
+        <ol>
+          <li>Für den Grieß: Milch mit Zucker, Butter und Salz aufkochen, Grieß einrühren. Kurz aufkochen lassen, dann 10 Minuten quellen lassen.</li>
+          <li>In eine flache Form streichen (ca. 1,5 cm dick), auskühlen lassen.</li>
+          <li>In Stücke schneiden, in Butter von beiden Seiten goldbraun braten.</li>
+          <li>Für das Kompott: Äpfel schälen, in Stücke schneiden, mit Wasser, Zucker und Zimt ca. 10 Minuten weich kochen.</li>
+          <li>Grießschnitten mit Apfelkompott servieren.</li>
+        </ol>
+      </div>
     </section>
-    <!-- Weitere Platzhalter nach Bedarf -->
   </main>
 
   <footer>
