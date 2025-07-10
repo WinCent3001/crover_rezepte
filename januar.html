@@ -13,6 +13,15 @@
     nav a:hover { background-color: #c72c3c; }
     main { max-width: 800px; margin: 2rem auto; padding: 1rem; background-color: white; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);}
     footer { text-align: center; padding: 1rem; background-color: #a4d65e; color: white; margin-top: 2rem; }
+    .recipe { margin-bottom: 2rem; padding: 1.5rem; border: 1px solid #ddd; border-radius: 8px; }
+    .recipe h3 { color: #a4d65e; margin-top: 0; }
+    .ingredients { background-color: #f9f9f9; padding: 1rem; border-radius: 5px; margin: 1rem 0; }
+    .ingredients h4 { margin-top: 0; color: #333; }
+    .ingredients ul { margin: 0; padding-left: 1.5rem; }
+    .instructions { margin-top: 1rem; }
+    .instructions h4 { color: #333; }
+    .instructions ol { padding-left: 1.5rem; }
+    .duration { font-weight: bold; color: #e63946; }
   </style>
 </head>
 <body>
@@ -38,11 +47,41 @@
 
   <main>
     <h2>Januar-Rezepte</h2>
-    <!-- Platzhalter für Rezepte -->
-    <section>
-      <h3>Rezept 1 (Platzhalter)</h3>
-      <p>Kurzbeschreibung zum Rezept 1...</p>
+    
+    <section class="recipe">
+      <h3>Grünkohl-Gnocchi</h3>
+      <p class="duration">Zubereitungsdauer: 45 min</p>
+      <p>Ein winterliches Gericht, das regionale Zutaten verwendet und perfekt zur kalten Jahreszeit passt.</p>
+      
+      <div class="ingredients">
+        <h4>Zutaten:</h4>
+        <ul>
+          <li>500 g Grünkohl</li>
+          <li>500 g Gnocchi</li>
+          <li>50 g Hartkäse, italienischer, gerieben</li>
+          <li>75 g Peperoni</li>
+          <li>etwas Limettensaft</li>
+          <li>Pinienkerne</li>
+          <li>2 kleine rote Zwiebeln</li>
+          <li>Knoblauch</li>
+          <li>Salz und Pfeffer</li>
+          <li>Zucker</li>
+        </ul>
+      </div>
+      
+      <div class="instructions">
+        <h4>Zubereitung:</h4>
+        <ol>
+          <li>Den Grünkohl waschen und anschließend blanchieren (für wenige Minuten in kochendes Salzwasser geben und anschließend in Eiswasser geben).</li>
+          <li>Anschließend die Blätter vom Strunk schneiden und kleinschneiden.</li>
+          <li>Pinienkerne rösten.</li>
+          <li>In einer Pfanne die Gnocchi anbraten, dann nacheinander Zwiebeln, Knoblauch und Peperoni hinzugeben sowie den Grünkohl.</li>
+          <li>Mit Salz, Pfeffer, Zucker und etwas Limettensaft abschmecken.</li>
+          <li>Zum Schluss die Grünkohlpfanne anrichten, mit Pinienkernen und geriebenem Hartkäse bestreuen.</li>
+        </ol>
+      </div>
     </section>
+    
     <section>
       <h3>Rezept 2 (Platzhalter)</h3>
       <p>Kurzbeschreibung zum Rezept 2...</p>
