@@ -193,7 +193,17 @@
   </main>
 
   <footer>
-    &copy; 2025 Pfadi CO₂-Kochteam
+ 
+<div id="footer"></div>
+
+<script>
+  fetch('footer.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('footer').innerHTML = data;
+    });
+</script>  
+
   </footer>
 </body>
 </html>
